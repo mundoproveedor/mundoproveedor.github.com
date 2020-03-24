@@ -1,0 +1,19 @@
+/* Colores en CSS */
+/* https://www.w3schools.com/colors/colors_names.asp */
+
+
+h1{
+	text-align: center;
+	color: rgb(255,0,0);
+}
+
+h2{
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+}
+body{
+	background-color: rgba(0,0,0,.5);
+}
+/* El canal alfa tiene como 1 la máxima opacidad
+

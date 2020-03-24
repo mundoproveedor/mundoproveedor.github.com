@@ -1,0 +1,79 @@
+TEMARIO CSS
+
+1. Integrar código CSS
+
+2. Selectores
+	A. Selectores de etiqueta
+	B. Selectores de clase & id
+	C. Selectores avanzados
+	D. Agrupar estilos y comentar código
+
+3. Background
+	A. Background-color
+	B. Background-image
+	C. Background-position
+	D. Gradients
+		D.1. Radial gradient
+
+4. Colores
+	A. Colorname y hexadecimal
+	B. RGB y RGBA
+	C. HSL y HSLA
+	D. Herramientas imprescindibles
+5. Bordes
+	A. Bordes
+	B. Border style y color
+	C. Border radius
+6. Fuentes
+	A. Fuentes
+	B. White space
+	C. Word spacing
+	D. Text formating
+	E. Text shadow
+7. Posiciones
+	A. Static
+	B. Relative
+	C. Fixed
+	D. Absolute
+8. Margin & padding
+	A. Padding
+	B. Margin
+	C. Auto values
+9. Imagenes
+	A. Imagenes con bordes redondeados
+	B. Thumbnails o imagenes en miniatura
+	C. Imagenes responsivas
+	D. Efecto polaroid
+	E. Filtros y opacidad
+	F. Agregar texto a imagenes
+10. Animaciones
+	A. Transforms
+	B. Transiciones
+	C. Animaciones 1
+	D. Animaciones 2
+11. Extras
+	A. Pointers o punteros
+	B. Media-queries 1
+	C. Media-queries 2
+	D. Pseudoclases 1
+	E. Pseudoclases 2
+	F. Pseudoelementos
+	G. Frameworks
+12. Ejercicios
+	A. Efecto paralax
+	B. Galeria responsiva
+	C. Imagenes modal 1
+	D. Imagenes modal 2
+	E. Navbar Css 1
+	F. Navbar Css 2
+	G. Navbar Css 3
+13. Flexbox
+	A. Flex-direction
+	B. Flex-wrap y flex-flow
+	C. La propiedad Flex
+	D. Justify-content
+	E. Align-items
+	F. Centrado vertical y horizontal
+	G. Align-self
+	
+

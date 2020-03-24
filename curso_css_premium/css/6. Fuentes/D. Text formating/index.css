@@ -1,0 +1,42 @@
+/* Fuentes en CSS */
+body{
+	font-size: 100%;
+}
+
+h2{
+	background-color: hsl(180,50%,80%);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 2em;
+	
+}
+p.center{
+	text-align: center; /* por defecto siempre está alienado a la izquierda */
+}
+p.right{
+	text-align: right; /* por defecto siempre está alienado a la izquierda */
+	color: red;
+}
+a.modaclix{
+	text-decoration: none;
+}
+a.modaclixO{
+	text-decoration: overline;
+}
+a.modaclixU{
+	text-decoration: underline; /* Es el que viene por defecto */
+}
+a.modaclixlt{
+	text-decoration: line-through;
+}
+a.modaclixttu{
+	text-transform: uppercase;
+}
+a.modaclixttl{
+	text-transform: lowercase;
+}
+a.modaclixttc{
+	text-transform: capitalize;
+}

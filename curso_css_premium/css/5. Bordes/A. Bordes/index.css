@@ -1,0 +1,26 @@
+/* Bordes en CSS */
+
+h1{
+	background-color: hsl(180,50%,80%);
+}
+
+h2{
+	background-color: hsl(180,50%,80%);
+	border:solid red 10px;
+	/* none, hidden, tod. dash, solid, */
+}
+
+h3 {
+	background-color: yellow;
+	border:double red 10px;
+}
+
+h3.dotted{
+	background-color: pink;
+	border:dotted red 5px;
+}
+
+h3.dashed{
+	background-color: lightgreen;
+	border:dashed rgba(0,0,0,.7) 5px;
+}

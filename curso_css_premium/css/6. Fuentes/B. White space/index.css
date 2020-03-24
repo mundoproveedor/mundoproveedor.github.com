@@ -1,0 +1,19 @@
+/* Fuentes en CSS */
+body{
+	font-size: 100%;
+}
+
+h2{
+	background-color: hsl(180,50%,80%);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+}
+p{
+	white-space: normal; /* Elmina los espacios en blanco y las separaciones */
+	white-space: nowrap; /* Deja todo el texto de corrido, no es muy recomendable */
+	white-space: pre; /* Agrega los saltos de línea, deja texto de largo, recopila las tabulaciones */
+	white-space: pre-wrap; /* Hace que el texto no se salga de su contenedor, maneja ciertas tabulaciones */
+	white-space: pre-line; /* Hace que el texto no se salga de su contenedor */
+/* La recomendada es white-space: pre-line; */
+}

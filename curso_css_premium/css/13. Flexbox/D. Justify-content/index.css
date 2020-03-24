@@ -1,0 +1,60 @@
+div.flex-start{
+	display: flex;
+	background-color: #f5f5f5;	
+	flex-flow: row wrap;
+	justify-content: flex-start; /* Define la alineación en el eje principal */
+					/*flex-start o flex-end, empuja los elementos a la linea inicial o final*/
+ 	/* align-items: ; /* Define la alineación en el eje cruzado */
+}
+div.flex-end{
+	display: flex;
+	background-color: #f5f5f5;	
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+div.center{
+	display: flex;
+	background-color: #f5f5f5;	
+	flex-flow: row wrap;
+	justify-content: center;
+}
+div.spacebetween{
+	display: flex;
+	background-color: #f5f5f5;	
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+div.spacearound{
+	display: flex;
+	background-color: #f5f5f5;	
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+button,p{
+	border:0;
+	font-size: 1em;
+	outline: none;
+	padding: 10px;
+	border-radius: 4px;
+	color: white;	 
+	min-width: 600px;
+}
+button{
+	background-color: gray;
+}
+button:nth-of-type(1){
+	background-color: #FF6759;
+	flex-grow: 2;
+}
+button:nth-of-type(2){
+	background-color: #F79256;
+	flex-grow: 3;
+}
+button:nth-of-type(3){
+	background-color: #047493;
+	flex-shrink: 4;
+}
+p{
+	background-color: #222;
+	height: 100px;
+}

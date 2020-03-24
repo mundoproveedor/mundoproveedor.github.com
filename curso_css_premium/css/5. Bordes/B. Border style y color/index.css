@@ -1,0 +1,18 @@
+/* Bordes en CSS */
+
+h2{
+	background-color: hsl(180,50%,80%);
+	border-top-style: dashed;
+}
+
+h2.dotted{
+	background-color: lightgreen;
+	border-top-style: none;
+	border-left-style: dotted;
+}
+
+h2.dotted1{
+	background-color: lightyellow;
+	border-top-style: none;
+	border-bottom: dotted blue 10px;
+}

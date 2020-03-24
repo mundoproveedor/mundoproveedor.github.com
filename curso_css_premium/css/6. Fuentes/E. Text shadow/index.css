@@ -1,0 +1,21 @@
+/* Fuentes en CSS */
+body{
+	font-size: 100%;
+}
+
+h1{
+	background-color: hsl(180,50%,80%);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 2em;
+	
+}
+h2{
+	background-color: lightpink;
+	color: white;
+	font-size: 2em;
+	text-shadow: 1px 2px 2px black;
+	/* posición horizontal, posición vertical, efecto de desenfoque, color */
+}

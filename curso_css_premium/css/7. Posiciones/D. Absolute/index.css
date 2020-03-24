@@ -1,0 +1,33 @@
+/* Posiciones CSS */
+
+/* Elementos en bloque 
+<h1>, <h2>, <h3>, <p>, <ul>, <li>, <div>, <header>, <nav>, <section>, <article>, <footer>, <form>, <table>
+*/
+/*Elementos en línea 
+ <a>, <span>, <strong>, <img>, <input>, <code>
+*/
+body{
+	font-size: 100%;
+}
+
+h1{
+	background-color: hsla(180,50%,80%,.5);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 2em;
+}
+.container{
+	position: relative;
+	border: 1px solid red;
+	height: 300px;
+}
+
+.title{
+	position: absolute;
+}
+
+.turtle{
+	position: absolute; 
+}

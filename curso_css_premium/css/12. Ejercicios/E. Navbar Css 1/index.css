@@ -1,0 +1,284 @@
+/*=============================================
+=           	Frameworks CSS	            =
+=============================================*/
+
+1. Bootstrap /* https://getbootstrap.com/ */
+2. Materialize /* https://materializecss.com */
+3. MaterialDesignLite /* https://getmdl.io/ */
+4. Flexboxgrid /* http://flexboxgrid.com/ */
+5. Semantic-ui /* https://semantic-ui.com/ */
+
+/*=====  End of Section comment block  ======*/
+
+a{
+	font-size: 1em;
+}
+a:active{
+	color:green;
+}
+a:hover{
+	background-color: black;
+	color: white;
+}
+a:link{
+	color:yellow;
+}
+a:visited{
+	font-size: 3em;
+	color:red;
+}
+
+body{
+	font-size: 100%;
+	margin: 0;
+	background-color: lightgrey; 
+}
+
+h1{
+	background-color: hsla(180,50%,80%,.5);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 2em;
+} 
+h2{
+	margin: 5px;
+}
+p{
+	margin: 20px;
+	white-space: pre-line;	
+}
+
+
+.container{
+	position: relative;
+	border: 1px solid red;
+	height: 418px;
+	/* padding: 10px 5px 10px 5px; /* arriba, derecha, abajo, izquierda */
+	/* padding: 10px; Automaticamente todos los padding quedan de 10px TRBL */
+	/* padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; */
+	/* puedes utilizar las unidades de medida en %, px, em, etc. */
+}
+h2.marginauto{
+	width: 50%;
+	margin: auto;
+}
+
+.blastoise{
+	border: double 7px darkblue;
+	border-radius: 50%;
+	margin: 0;
+}
+
+.imgtext{
+	position: absolute;
+	top: 20%;
+	left: 42px;
+	font-size: 40px;
+	color: white;
+}
+.images{
+	height: auto;
+	max-width: 100%
+}
+img{
+	width:100%;
+	height: 200px;
+	cursor: pointer;
+}
+div.polaroid{
+	position: relative;
+	background-color: white;
+	padding: 10px;
+	margin: 5px 0 25px 0;
+	margin-bottom: 15px; 
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+	
+}
+.polaroid img{
+	/* opacity: .4;
+	filter: blur(1px); 
+	filter: contrast (1.5); 
+	filter: brightness(.6); 
+	filter: hue-rotate(180deg); 
+	filter: invert(.2); 
+	filter: saturate(.2); 
+	filter: sepia(.2); */
+	filter: grayscale(.9);
+}
+.polaroid img:hover{
+	/* opacity: 1;
+	filter: blur(0); 
+	filter: contrast (1); 
+	filter: brightness(1);
+	filter: hue-rotate(360deg); 
+	filter: invert(1);
+	filter: saturate(1); 
+	filter: sepia(1); */
+	filter: grayscale(0);
+	/* cursor: wait; /* Deja el cursor con imagen de espera */
+	/* cursor: progress; /* Deja el cursor con imagen de espera */
+	/* cursor: no-drop; /* Deja el cursor con imagen de pare */
+	/* cursor: text; /* Deja el cursor con imagen de texto */
+	/* cursor: pointer; /* Nos indica con el cursor que podemos seleccionar ese elemento */
+	/* cursor: crosshair; /* Nos indica con el cursor tipo seleccionador photoshop */
+	/* cursor: help; /* Deja el cursor con el simbolo de ayuda */
+	/* cursor: move; /* Deja el cursos con el simbolo de mover */
+	/* cursor: e-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía la derecha */
+	/* cursor: n-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía arriba */
+	/* cursor: ne-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía esquina derecha arriba */
+	/* cursor: nw-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía esquina izquierda arriba */
+	/* cursor: s-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía abajo */
+	/* cursor: se-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía esquina derecha abajo */
+	/* cursor: sw-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía esquina izquierda abajo */
+	cursor: w-resize; /* Cursor tipo flecha que indica que se puede arrastrar hacía la izquierda */
+
+}
+/* div.polaroid:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, .8);
+	height: 243px;
+	transform: translate(15px,-15px);
+	/* transform: translateX(15px);
+	transform: translateY(-15px); 
+	transform: rotate(-10deg);
+	transform: scale(1.1, 1.1);
+	/* transform: scaleX(1.5);
+	transform: scaleY(1.5); 
+	transform: skew(-8deg); 
+}
+*/
+.modal{
+	display: none; 
+	position: fixed;
+	padding-top: 200px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0,0,0,.8);
+}
+.modal-content{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	animation: zoom .5s;
+}
+.cerrar{
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+@keyframes zoom{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+
+.texto{
+	text-align: center;
+}
+/*
+.thumb{
+	margin: 10px;
+	border: 5px solid #ddd;
+	width: 150px;
+}
+.thumb:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, .8);
+	width: 165px;
+}
+*/
+.title{
+	position: static;
+}
+
+.turtle{
+	position: relative;
+	margin: 10px;
+	border-radius: 10px;
+}
+.cubo{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s, height 2s, transform 4s;
+	transition-timing-function: linear; /* Misma velocidad de inicio a fin */
+	/* transition-timing-function: ease; /* Comienzo lento, luego rapido y final lento */
+	/* transition-timing-function: ease-in; /* Comienzo lento, luego termina rapido */
+	/* transition-timing-function: ease-out; /* Comienzo rapido, luego termina lento */
+	/* transition-timing-function: ease-in-out; /* Comienzo lento, luego termina lento */
+}
+div.cubo:hover{
+	width: 300px;
+	height: 300px;
+	transform: rotate(180deg);
+	animation-name: ejemplo;
+	animation-duration: 4s;
+	animation-delay: .1s;/* Tiempo de retardo en el que el elemento se carga para que se ejecute la animación */
+}
+@keyframes ejemplo{
+/*	from{background-color: blue;}
+	to{background-color: yellow;} */
+	0%{background-color: red;}
+	25%{background-color: orange;}
+	50%{background-color: yellow;}
+	100%{background-color: blue;}
+}
+@keyframes skew{
+	0%{transform: skewX(-20deg);}
+	100%{transform: skewY(20deg);}
+}
+
+.ejercicios{
+	position: relative;
+	background: url(fondo1.jpg) 0 / cover fixed; /* el 0/ indica que las propiedades tendran un valor por default*/
+	width: 100%;
+	height: 500px;
+}
+
+.content{
+	position: absolute;
+	border-radius: 10px;
+	background-color: hsla(120,10%,100%,.6);
+	box-shadow: 10px 10px 10px rgba(0,0,0,.8);
+	top: 15%; bottom: 15%; left: 10%; right: 10%;
+
+}
+.textos{
+	top: 40%; bottom: 40%; left: 40%; right: 40%;
+	position: absolute;
+	color: black;
+}
+@media screen and (max-width: 480px){/*iPhone 4*/
+	div.polaroid{
+		margin: 5px 0 25px 0;
+	}
+	img{
+		width: 100%;
+		cursor: pointer;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 760px){ /*phablets o tablets*/
+	div.polaroid{
+		margin: 5px 0 25px 0;
+	}
+	img{
+		width: 100%;
+	}
+
+}
+@media screen and (min-width: 761px){
+	div.polaroid{
+		display: inline-block;
+		margin-left: 6%;
+	}
+	img{
+		width: 300px;
+	}
+}

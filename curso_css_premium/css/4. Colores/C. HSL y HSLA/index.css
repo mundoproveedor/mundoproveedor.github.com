@@ -1,0 +1,12 @@
+/* Colores en CSS */
+/* https://www.w3schools.com/colors/colors_hsl.asp */
+
+
+h1{
+	background-color: hsl(180,50%,80%);
+	/* saturación y luminosidad */
+	text-align: center;
+}
+h2{
+	background-color: hsla(30, 100%, 50%, .5);
+}

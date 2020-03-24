@@ -1,0 +1,17 @@
+/* Bordes en CSS */
+
+h2{
+	background-color: hsl(180,50%,80%);
+	border: solid gray 5px;
+	border-radius: 10px;
+}
+h3{
+	background-color: hsl(180,50%,80%);
+	border: double darkblue 5px;
+	border-radius: 25px;
+}
+h4{
+	background-color: hsl(180,50%,80%);
+	border: dashed darkblue 5px;
+	border-radius: 100%;
+}

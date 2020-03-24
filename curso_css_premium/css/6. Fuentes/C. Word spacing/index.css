@@ -1,0 +1,14 @@
+/* Fuentes en CSS */
+body{
+	font-size: 100%;
+}
+
+h2{
+	background-color: hsl(180,50%,80%);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+}
+p{
+	word-spacing: 10px; /* 3cm -15px 1em el word-spacing o espaciado entre palabras*/
+}

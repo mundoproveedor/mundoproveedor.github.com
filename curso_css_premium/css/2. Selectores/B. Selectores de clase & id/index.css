@@ -1,0 +1,36 @@
+h1, p{
+	color:green;
+	text-align: center;
+}
+.ejemplo{
+	background-color: blue;
+	height: 20px;
+}
+h2.ejemplo{
+	color: white;
+	height: 40px;
+}
+
+#colores{
+	background-color: yellow;
+	color: red;
+	font-size: 2em;
+}
+
+#orange{
+	color: orange;
+}
+#green{
+	color: green;
+}
+#red{
+	color: red;
+}
+.blue{
+	color: blue;
+}
+
+/*span h2{
+	color: red;
+	font-size: 20px;
+}*/

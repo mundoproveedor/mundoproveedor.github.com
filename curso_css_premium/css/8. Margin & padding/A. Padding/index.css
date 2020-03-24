@@ -1,0 +1,37 @@
+/* Posiciones CSS */
+
+/* Elementos en bloque 
+<h1>, <h2>, <h3>, <p>, <ul>, <li>, <div>, <header>, <nav>, <section>, <article>, <footer>, <form>, <table>
+*/
+/*Elementos en línea 
+ <a>, <span>, <strong>, <img>, <input>, <code>
+*/
+body{
+	font-size: 100%;
+}
+
+h1{
+	background-color: hsla(180,50%,80%,.5);
+	border: double darkblue 5px;
+	border-radius: 25px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 2em;
+}
+.container{
+	position: relative;
+	border: 1px solid red;
+	height: 300px;
+	padding: 10px 5px 10px 5px; /* arriba, derecha, abajo, izquierda */
+	/* padding: 10px; Automaticamente todos los padding quedan de 10px TRBL */
+	/* padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; */
+	/* puedes utilizar las unidades de medida en %, px, em, etc. */
+}
+
+.title{
+	position: absolute;
+}
+
+.turtle{
+	position: absolute; 
+}

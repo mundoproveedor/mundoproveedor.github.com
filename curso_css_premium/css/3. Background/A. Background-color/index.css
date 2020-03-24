@@ -1,0 +1,42 @@
+/*Selectores de etiqueta*/
+/*Esta línea afecta a todas las etiquetas a con la clase ejemplo*/
+a[class="ejemplo"]{
+	color:red;
+}
+h1, p{
+	color:green;
+	font-family: Arial;
+	text-align: center;
+}
+/*Selectores de clase*/
+.blue{
+	color: blue;
+}
+.ejemplo{
+	background-color: #ff9900;
+	height: 20px;
+}
+h2.ejemplo{
+	color: white;
+	height: 40px;
+}
+/*Selectores de ID*/
+#colores > ul > li {
+	background-color: yellow;
+	color: red;
+	font-size: 2em;
+}
+#green{
+	color: green;
+}
+#orange{
+	color: orange !important;
+}
+
+#red{
+	color: red;
+}
+/*span h2{
+	color: red;
+	font-size: 20px;
+}*/

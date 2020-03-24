@@ -1,0 +1,16 @@
+/* Colores en CSS */
+/* https://www.w3schools.com/colors/colors_names.asp */
+
+/* Colorname 
+h1{
+	background-color: cyan;
+	color: hotpink;
+} */
+
+/* Color hexadecimal */
+h1{
+	background-color: #00CED1;
+	color: hotpink;
+} 
+
+

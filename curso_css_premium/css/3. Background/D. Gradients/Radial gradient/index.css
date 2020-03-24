@@ -1,0 +1,16 @@
+body {
+	background-image: url(blastoise.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%; /* right top; *//* center top*/
+	background-attachment: fixed;
+	background-size: contain; /*cover; 100% 100%; 100px 100px;*/
+	background: repeating-radial-gradient(red, yellow 10%, green 15%);
+	/* background: radial-gradient(circle, red, yellow, green);
+	/* background: radial-gradient(red 5%, yellow 15%, green 50%);
+	/* background: repeating-linear-gradient(-80deg, red, yellow 10%, green 20%);
+	/* background: linear-gradient(-80deg, rgba(255,0,0,0), rgba(255,0,0,1));
+	/* background: linear-gradient(45deg, green, yellow, red); */
+}
+.space{
+	height: 600px;
+}

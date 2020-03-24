@@ -1,0 +1,16 @@
+body {
+	background-image: url(blastoise.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%; /* right top; *//* center top*/
+	background-attachment: fixed;
+	background-size: contain; /*cover; 100% 100%; 100px 100px;*/
+
+	background: linear-gradient(to right, green, yellow, red);
+	/* background: linear-gradient(red, yellow); */
+	/* background: linear-gradient(to left, red, yellow); */
+	/* background: linear-gradient(to bottom, red, yellow); */
+	/* background: linear-gradient(to top, red, yellow); */
+}
+.space{
+	height: 600px;
+}
