@@ -371,9 +371,28 @@ footer {
 		background-color: green;
 	}
 }
-@media screen and (min-width: 761px){
+@media screen and (min-width: 1024px){
 	body{
-		
+		width: 100%;		
 	}
+	header{
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	header.fixed{
+		max-width: 100%;
+	}
+	.navbar{
+		width: 80%;
+		position: center;
+	}
+	section.container{
+		width: 80%;	
+	}
+	footer{
+		width: 100%;
+	}
+}
 	
 }
