@@ -1,0 +1,18 @@
+.container{
+	display: grid;
+	height: 300px;
+	width: 500px;
+	background-color: blue;
+	grid-template: 200px 100px / /* [inicial-col]200px 300px[final-col] */ [inicial-header]200px 300px[final-header];
+}
+
+.red{
+	background-color: red;
+	grid-column: /* inicial-col / final-col */ inicial-header / final-header ;
+	grid-row: 1; 
+}
+.yellow{
+	background-color: yellow;
+	grid-column: 1 / 2;
+	grid-row: 1;
+}

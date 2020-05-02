@@ -1,57 +1,64 @@
 TEMARIO CSS
 
-1. Integrar código CSS
+A. Integrar código CSS
 
-2. Selectores
+B. Selectores
 	A. Selectores de etiqueta
 	B. Selectores de clase & id
 	C. Selectores avanzados
 	D. Agrupar estilos y comentar código
 
-3. Background
+C. Background
 	A. Background-color
 	B. Background-image
 	C. Background-position
 	D. Gradients
 		D.1. Radial gradient
 
-4. Colores
+D. Colores
 	A. Colorname y hexadecimal
 	B. RGB y RGBA
 	C. HSL y HSLA
 	D. Herramientas imprescindibles
-5. Bordes
+
+E. Bordes
 	A. Bordes
 	B. Border style y color
 	C. Border radius
-6. Fuentes
+
+F. Fuentes
 	A. Fuentes
 	B. White space
 	C. Word spacing
 	D. Text formating
 	E. Text shadow
-7. Posiciones
+
+G. Posiciones
 	A. Static
 	B. Relative
 	C. Fixed
 	D. Absolute
-8. Margin & padding
+
+H. Margin & padding
 	A. Padding
 	B. Margin
 	C. Auto values
-9. Imagenes
+
+I. Imagenes
 	A. Imagenes con bordes redondeados
 	B. Thumbnails o imagenes en miniatura
 	C. Imagenes responsivas
 	D. Efecto polaroid
 	E. Filtros y opacidad
 	F. Agregar texto a imagenes
-10. Animaciones
+
+J. Animaciones
 	A. Transforms
 	B. Transiciones
 	C. Animaciones 1
 	D. Animaciones 2
-11. Extras
+
+K. Extras
 	A. Pointers o punteros
 	B. Media-queries 1
 	C. Media-queries 2
@@ -59,7 +66,8 @@ TEMARIO CSS
 	E. Pseudoclases 2
 	F. Pseudoelementos
 	G. Frameworks
-12. Ejercicios
+
+L. Ejercicios
 	A. Efecto paralax
 	B. Galeria responsiva
 	C. Imagenes modal 1
@@ -67,7 +75,8 @@ TEMARIO CSS
 	E. Navbar Css 1
 	F. Navbar Css 2
 	G. Navbar Css 3
-13. Flexbox
+
+M. Flexbox
 	A. Flex-direction
 	B. Flex-wrap y flex-flow
 	C. La propiedad Flex
@@ -76,4 +85,7 @@ TEMARIO CSS
 	F. Centrado vertical y horizontal
 	G. Align-self
 	
-
+N. Css Grid
+	A. Definir filas y columnas
+	B. Posicionar elementos en el grid
+	C. Nombrando líneas

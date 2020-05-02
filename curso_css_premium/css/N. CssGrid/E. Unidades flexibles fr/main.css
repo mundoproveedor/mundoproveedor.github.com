@@ -1,0 +1,17 @@
+.container{
+	display: grid;
+	height: 300px;
+	background-color: blue;
+	grid-template-columns: /* repeat(12,1fr); */ /* 1fr 1fr; */ /* 1fr 2fr; */ 200px 1fr 2fr;
+}
+
+.red{
+	background-color: red;
+	grid-column: start-col / end-col ;
+	grid-row: 1; 
+}
+.yellow{
+	background-color: yellow;
+	grid-column: 2 / 3;
+	grid-row: 1;
+}
