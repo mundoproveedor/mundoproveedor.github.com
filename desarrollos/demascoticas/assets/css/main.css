@@ -236,6 +236,8 @@ h1{
     z-index:1;
     top:50%;
     margin-top:-9px;
+    /*color:black;*/
+	font-size: 25px;
 }
  
 #carrusel .right-arrow {
@@ -244,6 +246,8 @@ h1{
     z-index:1;
     top:50%;
     margin-top:-9px;
+      /*color:black;*/
+	font-size: 25px;
 }
  
 .carrusel {
@@ -265,7 +269,64 @@ h1{
     cursor:pointer;
 }
  
-.product {
+.frameblog{
+	width: 100%;
+	height: 600px;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+	display: flex;
+	flex-direction: nowrap;
+	/*justify-content:; 
+	align-items:;*/
+}
+.frameblogLeft{
+	width: 65%;
+	height: 95%;
+	margin: 0;
+	margin-right: 5%;
+	padding: 0;
+}
+.frameblogRight{
+	width: 28%;
+	height: 95%;
+	margin: 0;
+	padding: 0;
+	border-left-style: solid;
+	border-color: lightgray;
+	border-width: 1px; 
+}
+.frameblogArticle{
+	width: 95%;
+	height: 150px;
+	border-bottom-style: solid;
+	border-color: lightgray;
+	border-width: 1px; 
+	padding: 15px;
+	display: flex;
+	flex-direction: nowrap;
+}
+.frameblogArticleleft{
+	width: 22%;
+	height: 150px;
+	background-color: grey;
+}
+.frameblogArticleright{
+	width: 78%;
+	height: 145px;
+	margin-left: 2.5%;
+}
+.buttonblogArticle{
+	width: 15%;
+	height: 13%;
+	margin-top: 4px;
+	padding-left: 5px;
+	border-radius: 25px;
+	background-color: red;
+	color: white;
+}
+.product{
     border:#CCCCCC 1px solid;
 }
 
@@ -466,7 +527,7 @@ footer {
 		width: 100%;
 	}
 } 
-@media screen and (min-width: 769px) and (max-width: 1280px){
+@media screen and (min-width: 769px) and (max-width: 1023px){
 	body{
 		width: 100%;		
 	}	
@@ -508,7 +569,7 @@ footer {
 	display: inline;
 	}
 	.menu_navBarM ul li{
-		margin: 5px;
+		margin: 10px;
 		display: inline-block;
 		font-size: 12.5px;
 	}
@@ -531,7 +592,72 @@ footer {
 		width: 100%;
 	}
 }
-@media screen and (min-width: 1281px){
+@media screen and (min-width: 1024px) and (max-width: 1480px){
+	body{
+		width: 100%;		
+	}	
+	header{
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	header.fixed{
+		max-width: 100%;
+		max-height: auto;
+	}
+	.logo_space{
+		width: 28%;
+	}
+	.publicity_header{
+		width: 72%;
+	}
+	.navbar{
+		width: 100%;
+		position: center;
+	}
+	.menu_navBar{
+		display: none;
+	}
+	.menu_navBarM{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-end;
+		 align-items: center;
+		position: relative;
+		right: 7%;
+	   	bottom: 95%
+	}
+	.menu_navBarM ul{
+	margin: 0;
+	display: inline;
+	}
+	.menu_navBarM ul li{
+		margin: 10px;
+		display: inline-block;
+		font-size: 12.5px;
+	}
+	.menu_navBarM ul li{
+		display: inline-block;
+		position: relative;
+		font-family: 'Coming Soon', cursive;
+		font-style: bold;
+		font-size: 1em;
+	}
+
+	section.container{
+		width: 90%;	
+		display: flex;
+		margin: auto;
+		margin-right: 5%;	
+		
+	}
+	footer{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1481px){
 	body{
 		width: 100%;		
 	}	
