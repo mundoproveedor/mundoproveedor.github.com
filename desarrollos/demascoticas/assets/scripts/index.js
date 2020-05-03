@@ -30,7 +30,7 @@ function posicionarMenu() {
 		$('.fa-times-circle').css("display","none");
 	});
 
-// Carrousel
+// Carrousel home
 	
 var current = 0;
 var imagenes = new Array();

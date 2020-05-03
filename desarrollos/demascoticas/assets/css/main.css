@@ -98,10 +98,13 @@ html{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	 align-items: center;
+	align-items: center;
 	position: relative;
 	right: 7%;
-   	bottom: 95%;
+   	bottom: 95%
+}
+.menu_navBarM{
+	display: none;
 }
 .navBar-image{
 	height: 35px;
@@ -455,15 +458,15 @@ footer {
 	    width: 95%;
 	}
 }
-@media screen and (min-width: 481px) and (max-width: 760px){ /*phablets o tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){ /*phablets o tablets*/
 	body{
 		background-color: green;
 	}
 	.menu_navBar{
 		width: 100%;
 	}
-}
-@media screen and (min-width: 1024px){
+} 
+@media screen and (min-width: 769px) and (max-width: 1280px){
 	body{
 		width: 100%;		
 	}	
@@ -476,14 +479,77 @@ footer {
 		max-width: 100%;
 		max-height: auto;
 	}
-	
 	.logo_space{
 		width: 28%;
 	}
 	.publicity_header{
 		width: 72%;
 	}
+	.navbar{
+		width: 100%;
+		position: center;
+	}
+	.menu_navBar{
+		display: none;
+	}
+	.menu_navBarM{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-end;
+		 align-items: center;
+		position: relative;
+		right: 7%;
+	   	bottom: 95%
+	}
+	.menu_navBarM ul{
+	margin: 0;
+	display: inline;
+	}
+	.menu_navBarM ul li{
+		margin: 5px;
+		display: inline-block;
+		font-size: 12.5px;
+	}
+	.menu_navBarM ul li{
+		display: inline-block;
+		position: relative;
+		font-family: 'Coming Soon', cursive;
+		font-style: bold;
+		font-size: 1em;
+	}
 
+	section.container{
+		width: 90%;	
+		display: flex;
+		margin: auto;
+		margin-right: 5%;	
+		
+	}
+	footer{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1281px){
+	body{
+		width: 100%;		
+	}	
+	header{
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	header.fixed{
+		max-width: 100%;
+		max-height: auto;
+	}
+	.logo_space{
+		width: 28%;
+	}
+	.publicity_header{
+		width: 72%;
+	}
 	.navbar{
 		width: 100%;
 		position: center;
@@ -501,7 +567,5 @@ footer {
 	footer{
 		width: 100%;
 	}
-}
-	
-}
+}	
 
