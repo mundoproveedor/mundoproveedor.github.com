@@ -282,10 +282,10 @@ h1{
 	align-items:;*/
 }
 .frameblogLeft{
-	width: 65%;
+	width: 70%;
 	height: 95%;
 	margin: 0;
-	margin-right: 5%;
+	margin-right: 2%;
 	padding: 0;
 }
 .frameblogRight{
@@ -317,8 +317,11 @@ h1{
 	height: 145px;
 	margin-left: 2.5%;
 }
+.frameblogArticleright p {
+	padding-bottom: 10px;
+}
 .buttonblogArticle{
-	width: 15%;
+	width: 85px;
 	height: 13%;
 	margin-top: 4px;
 	padding-left: 5px;
@@ -429,6 +432,12 @@ footer {
 	  height: 85px; /* fixed header height*/
 	  margin: -85px 0 0; /* negative fixed header height */
 	}
+	h1{
+		font-size: 1.5em;
+	}
+	h2{
+		font-size: 1.4em;
+	}
 	.left_content{
 		display: none;
 	}
@@ -496,6 +505,41 @@ footer {
 	#carrusel {
 		display: none;
 	}
+	.frameblogLeft{
+		width: 100%;
+		height: 95%;
+		margin: 0;
+	}
+	.frameblogRight{
+		display: none; 
+	}
+
+	.frameblogArticle{
+		width: 95%;
+		height: 70px;
+		padding: 0 0 10px 0;
+		display: flex;
+		flex-direction: nowrap;
+	}
+	.frameblogArticleleft{
+		width: 25%;
+		height: auto;
+		background-color: grey;
+	}
+	.frameblogArticleright{
+		width: 78%;
+		height: auto;
+		margin-left: 2.5%;
+	}
+	.frameblogArticleright p {
+		display: none;
+	}
+	.buttonblogArticle{
+		height: auto;
+		position: relative;
+		bottom: 15px; 
+	}
+
 	.tablacontenido{
 		width: 90%;
 		height: auto;
@@ -527,7 +571,7 @@ footer {
 		width: 100%;
 	}
 } 
-@media screen and (min-width: 769px) and (max-width: 1023px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
 	body{
 		width: 100%;		
 	}	
@@ -580,7 +624,54 @@ footer {
 		font-style: bold;
 		font-size: 1em;
 	}
-
+	.frameblog{
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 0;
+		display: flex;
+		flex-direction: nowrap;
+		/*justify-content:; 
+		align-items:;*/
+	}
+	.frameblogLeft{
+		width: 70%;
+		height: 95%;
+		margin: 0;
+		margin-right: 2%;
+		padding: 0;
+	}
+	.frameblogRight{
+		width: 28%;
+		height: 95%;
+		margin: 0;
+		padding: 0;
+		border-left-style: solid;
+		border-color: lightgray;
+		border-width: 1px; 
+	}
+	.frameblogArticle{
+		width: 95%;
+		height: 150px;
+		border-bottom-style: solid;
+		border-color: lightgray;
+		border-width: 1px; 
+		padding: 15px;
+		display: flex;
+		flex-direction: nowrap;
+	}
+	.frameblogArticleleft{
+		min-width: 158px;
+		max-width: 158px;
+		height: 150px;
+		background-color: grey;
+	}
+	.frameblogArticleright{
+		width: 78%;
+		height: 145px;
+		margin-left: 2.5%;
+	}
 	section.container{
 		width: 90%;	
 		display: flex;
@@ -592,7 +683,7 @@ footer {
 		width: 100%;
 	}
 }
-@media screen and (min-width: 1024px) and (max-width: 1480px){
+@media screen and (min-width: 1025px) and (max-width: 1480px){
 	body{
 		width: 100%;		
 	}	
@@ -630,8 +721,8 @@ footer {
 	   	bottom: 95%
 	}
 	.menu_navBarM ul{
-	margin: 0;
-	display: inline;
+		margin: 0;
+		display: inline;
 	}
 	.menu_navBarM ul li{
 		margin: 10px;
@@ -645,13 +736,60 @@ footer {
 		font-style: bold;
 		font-size: 1em;
 	}
-
 	section.container{
 		width: 90%;	
 		display: flex;
 		margin: auto;
 		margin-right: 5%;	
 		
+	}
+	.frameblog{
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 0;
+		display: flex;
+		flex-direction: nowrap;
+		/*justify-content:; 
+		align-items:;*/
+	}
+	.frameblogLeft{
+		width: 70%;
+		height: 95%;
+		margin: 0;
+		margin-right: 2%;
+		padding: 0;
+	}
+	.frameblogRight{
+		width: 28%;
+		height: 95%;
+		margin: 0;
+		padding: 0;
+		border-left-style: solid;
+		border-color: lightgray;
+		border-width: 1px; 
+	}
+	.frameblogArticle{
+		width: 95%;
+		height: 150px;
+		border-bottom-style: solid;
+		border-color: lightgray;
+		border-width: 1px; 
+		padding: 15px;
+		display: flex;
+		flex-direction: nowrap;
+	}
+	.frameblogArticleleft{
+		min-width: 158px;
+		max-width: 158px;
+		height: 150px;
+		background-color: grey;
+	}
+	.frameblogArticleright{
+		width: 78%;
+		min-height: 145px;
+		margin-left: 2.5%;
 	}
 	footer{
 		width: 100%;
@@ -690,6 +828,56 @@ footer {
 		margin-right: 5%;	
 		
 	}
+
+	.frameblog{
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 0;
+		display: flex;
+		flex-direction: nowrap;
+		/*justify-content:; 
+		align-items:;*/
+	}
+	.frameblogLeft{
+		width: 70%;
+		height: 95%;
+		margin: 0;
+		margin-right: 2%;
+		padding: 0;
+	}
+	.frameblogRight{
+		width: 28%;
+		height: 95%;
+		margin: 0;
+		padding: 0;
+		border-left-style: solid;
+		border-color: lightgray;
+		border-width: 1px; 
+	}
+	.frameblogArticle{
+		width: 95%;
+		height: 150px;
+		border-bottom-style: solid;
+		border-color: lightgray;
+		border-width: 1px; 
+		padding: 15px;
+		display: flex;
+		flex-direction: nowrap;
+	}
+	.frameblogArticleleft{
+		min-width: 158px;
+		max-width: 158px;
+		height: 150px;
+		background-color: grey;
+	}
+	.frameblogArticleright{
+		width: 78%;
+		height: 145px;
+		margin-left: 2.5%;
+	}
+
 	footer{
 		width: 100%;
 	}
