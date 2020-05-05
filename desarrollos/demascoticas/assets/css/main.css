@@ -297,6 +297,32 @@ h1{
 	border-color: lightgray;
 	border-width: 1px; 
 }
+.articlesPre{
+	width: 100%;
+	height: auto;
+	margin-top: 14px;
+	margin-left: 3%;
+}
+.listadoArticles{
+	width: 100%;
+	height: 70px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: nowrap;
+	justify-content: flex-start; 
+	align-items:center;
+}
+
+.listadoArticles:hover{
+	transform: scale(1.02, 1.02);
+}
+
+.image-listadoArticles{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+
 .frameblogArticle{
 	width: 95%;
 	height: 150px;
@@ -307,6 +333,11 @@ h1{
 	display: flex;
 	flex-direction: nowrap;
 }
+
+.frameblogArticle:hover{
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);	
+	transform: scale(1.015, 1.015);
+}	
 .frameblogArticleleft{
 	width: 22%;
 	height: 150px;
@@ -330,6 +361,10 @@ h1{
 	border-radius: 25px;
 	background-color: red;
 	color: white;
+}
+
+.buttonblogArticle:hover{
+	transform: scale(1.1, 1.1);
 }
 .product{
     border:#CCCCCC 1px solid;
