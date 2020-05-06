@@ -224,7 +224,7 @@ h1{
     float:left;
     width:100%;
     overflow:hidden;
-    height:206px;
+    height:200px;
     position:relative;
     margin-top:20px;
     margin-bottom:20px;
@@ -259,9 +259,9 @@ h1{
  
 .carrusel>div {
     float: left;
-    height: 203px;
+    height: 200px;
     margin-right: 5px;
-    width: 195px;
+    width: 200px;
     text-align:center;
 }
  
@@ -350,6 +350,7 @@ h1{
 }
 .frameblogArticleright p {
 	padding-bottom: 10px;
+	font-size: 16px;
 }
 .buttonblogArticle{
 	width: 85px;
@@ -368,6 +369,9 @@ h1{
 }
 .product{
     border:#CCCCCC 1px solid;
+}
+.product:hover{
+	transform: scale(1.05, 1.05);
 }
 
 .tablacontenido{

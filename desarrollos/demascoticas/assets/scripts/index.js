@@ -36,7 +36,7 @@ var current = 0;
 var imagenes = new Array();
  
 $(document).ready(function() {
-    var numImages = 15;
+    var numImages = 9;
     if (numImages <= 5) {
         $('.right-arrow').css('display', 'none');
         $('.left-arrow').css('display', 'none');
