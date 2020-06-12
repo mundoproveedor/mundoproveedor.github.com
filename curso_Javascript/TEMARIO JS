@@ -1,0 +1,16 @@
+TEMARIO JS
+
+A. Conceptos básicos
+	A. Variables y constantes
+	B. Números y operaciones
+	C. Booleanos
+	D. Operadores de comparación
+	E. Operadores lógicos
+	F. Condiciones
+	G. Ciclos
+	H. Datos undefined, null y nan
+
+B. Funciones y el scope
+	A. Declaración de funciones
+	B. Qué es el scope
+	C. Let, const y var
